@@ -1,8 +1,8 @@
 title: "Benoît Rongeard"
-description: "Tech lead — Passionné par les nouvelles technologies"
+description: "Tech lead — Freelance"
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
-	- jekyll-remote-theme
+- jekyll-remote-theme
 
 # Site author / contact
 author:
