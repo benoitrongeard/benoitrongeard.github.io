@@ -1,0 +1,51 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom overrides */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.hero-img {
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.hero {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.5rem 1rem;
+  margin: 0.5rem 0 1.25rem;
+}
+
+.badge-row img {
+  height: 26px;
+  margin-right: 0.5rem;
+}
+
+.stats img {
+  max-width: 100%;
+  margin-top: 0.75rem;
+}
+
+/* Small responsive tweak */
+@media (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero-img {
+    width: 160px;
+  }
+}
