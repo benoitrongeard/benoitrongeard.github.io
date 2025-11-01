@@ -1,74 +1,145 @@
 ---
-layout: home
-title: "Benoît Rongeard — Tech lead"
-description: "Profil, compétences et projets — Tech lead passionné par les nouvelles technologies"
+layout: default
+title: "Benoît Rongeard — Tech Lead"
+description: "Tech Lead passionné par les nouvelles technologies | Web, Mobile, Cloud, DevOps & Web3"
 ---
 
-<div class="hero">
-  <img class="hero-img" src="https://raw.githubusercontent.com/benoitrongeard/benoitrongeard/main/devcard.png" alt="Benoît Rongeard" />
-  <div>
-  # Benoît Rongeard
-
-**Tech lead • Passionné par les nouvelles technologies**
-
-Basé en France — 30 ans
-
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1 class="hero-title">Benoît Rongeard</h1>
+      <p class="hero-subtitle">💻 Tech Lead</p>
+      <p class="hero-description">📱 Passionné par les nouvelles technologies</p>
+      <p class="hero-info">🎂 30 ans | 🏠 France</p>
+      <div class="hero-social">
+        <a href="https://linkedin.com/in/benoit-rongeard-678258100" target="_blank" class="social-btn linkedin">
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://instagram.com/benoit_rgd" target="_blank" class="social-btn instagram">
+          <span>Instagram</span>
+        </a>
+        <a href="https://github.com/benoitrongeard" target="_blank" class="social-btn github">
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://raw.githubusercontent.com/benoitrongeard/benoitrongeard/main/devcard.png" alt="Benoît Rongeard" />
+    </div>
   </div>
-</div>
+</section>
 
-<div class="badge-row">
-  <!-- simple skill icons row (from your presentation repo) -->
-  <img src="https://skillicons.dev/icons?i=angular,adonis,flutter,laravel,spring" alt="frameworks" />
-  <img src="https://skillicons.dev/icons?i=ts,js,dart,reactivex,java,nodejs,php,solidity" alt="languages" />
-</div>
+<!-- About Section -->
+<section class="about-section">
+  <div class="container">
+    <h2 class="section-title">💫 À propos</h2>
+    <p class="about-text">
+      Ingénieur logiciel et Tech Lead avec une expérience multi-stack. J'aime concevoir et livrer des produits robustes, 
+      accompagner les équipes et explorer les nouvelles technologies (Web, Mobile, Cloud, DevOps et Web3).
+    </p>
+  </div>
+</section>
 
-## À propos
+<!-- Tech Stack Section -->
+<section class="tech-stack-section">
+  <div class="container">
+    <h2 class="section-title">💻 Tech Stack</h2>
+    
+    <div class="tech-category">
+      <h3 class="tech-category-title">Frameworks</h3>
+      <div class="tech-icons">
+        <img src="https://skillicons.dev/icons?i=angular,adonis,flutter,laravel,spring" alt="Frameworks" />
+      </div>
+    </div>
+    
+    <div class="tech-category">
+      <h3 class="tech-category-title">Langages</h3>
+      <div class="tech-icons">
+        <img src="https://skillicons.dev/icons?i=ts,js,dart,reactivex,java,nodejs,php,solidity" alt="Languages" />
+      </div>
+    </div>
+    
+    <div class="tech-category">
+      <h3 class="tech-category-title">Bases de données</h3>
+      <div class="tech-icons">
+        <img src="https://skillicons.dev/icons?i=mysql,postgres" alt="Databases" />
+      </div>
+    </div>
+    
+    <div class="tech-category">
+      <h3 class="tech-category-title">Front-end & Styles</h3>
+      <div class="tech-icons">
+        <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,sass" alt="Front-end" />
+      </div>
+    </div>
+    
+    <div class="tech-category">
+      <h3 class="tech-category-title">Outils & Infrastructure</h3>
+      <div class="tech-icons">
+        <img src="https://skillicons.dev/icons?i=kubernetes,docker,git,github,gitlab,netlify,vercel,postman,vite,vscode,ipfs" alt="Tools" />
+      </div>
+    </div>
+  </div>
+</section>
 
-Ingénieur logiciel et Tech Lead avec une expérience multi-stack. J'aime concevoir et livrer des produits robustes, accompagner les équipes et explorer les nouvelles technologies (Web, Mobile, Cloud, DevOps et Web3).
+<!-- Additional Skills Section -->
+<section class="additional-skills-section">
+  <div class="container">
+    <h2 class="section-title">🚀 Compétences additionnelles</h2>
+    <div class="badges-container">
+      <img src="https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white" alt="Bulma">
+      <img src="https://img.shields.io/badge/Ionic-%233880FF.svg?style=for-the-badge&logo=Ionic&logoColor=white" alt="Ionic">
+      <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" alt="NPM">
+      <img src="https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220" alt="PNPM">
+      <img src="https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white" alt="RxJS">
+      <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="SASS">
+      <img src="https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white" alt="Web3.js">
+      <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" alt="Firebase">
+      <img src="https://img.shields.io/badge/argo-EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white&color=%23EF7B4D" alt="ArgoCD">
+      <img src="https://img.shields.io/badge/azuredevops-0078D7.svg?style=for-the-badge&logo=azuredevops&logoColor=white&color=%230078D7" alt="Azure DevOps">
+      <img src="https://img.shields.io/badge/sonarqube-4E9BCD.svg?style=for-the-badge&logo=sonarqube&logoColor=white&color=%234E9BCD" alt="SonarQube">
+      <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white" alt="Notion">
+      <img src="https://img.shields.io/badge/OpenSea-%232081E2.svg?style=for-the-badge&logo=opensea&logoColor=white" alt="OpenSea">
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
+      <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Swagger">
+      <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="Netlify">
+    </div>
+  </div>
+</section>
 
-## Compétences (extraites de mon README)
+<!-- GitHub Stats Section -->
+<section class="stats-section">
+  <div class="container">
+    <h2 class="section-title">📊 GitHub Stats</h2>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=benoitrongeard&theme=react&hide_border=true&include_all_commits=true&layout=compact&exclude_repo=projet_jeux_video" alt="Top Languages" />
+      </div>
+      <div class="stat-card">
+        <img src="https://github-readme-stats.vercel.app/api?username=benoitrongeard&rank_icon=github&theme=react&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
+      </div>
+    </div>
+    <div class="contribution-graph">
+      <picture>
+        <source srcset="https://raw.githubusercontent.com/benoitrongeard/benoitrongeard/snake-output/github-contribution-grid-snake.svg">
+        <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/benoitrongeard/benoitrongeard/snake-output/github-contribution-grid-snake.svg">
+      </picture>
+    </div>
+  </div>
+</section>
 
-<div class="skills-list">
-  <ul>
-  <li><strong>Langages</strong> : TypeScript, JavaScript, Dart, Java, PHP, Solidity</li>
-  <li><strong>Frameworks / Plateformes</strong> : Angular, Adonis, Flutter, Laravel, Spring</li>
-  </ul>
-
-  <ul>
-  <li><strong>Bases de données</strong> : MySQL, PostgreSQL</li>
-  <li><strong>Front / Styles</strong> : HTML, CSS, Tailwind, Bootstrap, SASS</li>
-  </ul>
-
-  <ul>
-  <li><strong>Outils & Infra</strong> : Docker, Kubernetes, Git, GitHub, GitLab, Netlify, Vercel, Vite, VSCode, Postman, IPFS</li>
-  <li><strong>Cloud & CI/CD</strong> : Azure DevOps, ArgoCD, SonarQube</li>
-  </ul>
-
-  <ul>
-  <li><strong>Web3 & Mobile</strong> : Web3.js, Firebase</li>
-  </ul>
-</div>
-
-> Pour la liste complète et les badges, voir le README original : https://github.com/benoitrongeard/benoitrongeard/blob/main/README.md
-
-<!-- GitHub stats images (same as in your README) -->
-<div class="stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=benoitrongeard&theme=react&hide_border=true&include_all_commits=true&layout=compact&exclude_repo=projet_jeux_video" alt="Top languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=benoitrongeard&rank_icon=github&theme=react&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
-  <img src="https://raw.githubusercontent.com/benoitrongeard/benoitrongeard/snake-output/github-contribution-grid-snake.svg" alt="Contributions" />
-</div>
-
-## Projets & Stats
-
-- Voir mon profil GitHub : [benoitrongeard](https://github.com/benoitrongeard)
-- Statistiques & contributions disponibles sur mon README et les widgets GitHub
-
-## Contact
-
-- LinkedIn: [Benoît Rongeard](https://linkedin.com/in/benoit-rongeard-678258100)
-- Instagram: [@benoit_rgd](https://instagram.com/benoit_rgd)
-- GitHub: https://github.com/benoitrongeard
-
----
-
-_Page générée automatiquement — thème Architect (GitHub Pages)._
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">💼 N'hésitez pas à me contacter pour discuter de vos projets !</p>
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/benoit-rongeard-678258100" target="_blank">LinkedIn</a>
+      <span>•</span>
+      <a href="https://instagram.com/benoit_rgd" target="_blank">Instagram</a>
+      <span>•</span>
+      <a href="https://github.com/benoitrongeard" target="_blank">GitHub</a>
+    </div>
+    <p class="footer-copyright">© 2025 Benoît Rongeard. Tous droits réservés.</p>
+  </div>
+</footer>
