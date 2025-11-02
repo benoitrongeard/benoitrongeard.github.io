@@ -153,9 +153,6 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
     <h2 class="section-title">📊 GitHub Stats</h2>
     <div class="stats-grid">
       <div class="stat-card">
-        <img src="https://github-readme-stats-zeta-navy-63.vercel.app/api/top-langs/?username=benoitrongeard&theme=react&hide_border=true&include_all_commits=true&layout=compact&exclude_repo=projet_jeux_video" alt="Top Languages" />
-      </div>
-      <div class="stat-card">
         <img src="https://github-readme-stats-zeta-navy-63.vercel.app/api?username=benoitrongeard&rank_icon=github&theme=react&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
       </div>
     </div>
