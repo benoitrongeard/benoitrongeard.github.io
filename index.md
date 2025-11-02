@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Benoît Rongeard — Tech Lead"
-description: "Tech Lead passionné par les nouvelles technologies | Web, Mobile, Cloud, DevOps & Web3"
+title: "Benoît Rongeard — Tech Lead Freelance"
+description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
 ---
 
 <!-- Hero Section -->
