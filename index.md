@@ -123,7 +123,7 @@ description: "Tech Lead passionné par les nouvelles technologies | Web, Mobile,
 </section>
 
 <!-- Additional Skills Section -->
-<section class="additional-skills-section">
+<section id="additional-skills-section">
   <div class="container">
     <h2 class="section-title">🚀 Compétences additionnelles</h2>
     <div class="badges-container">

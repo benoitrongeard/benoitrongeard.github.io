@@ -296,13 +296,12 @@ section {
   align-items: center;
   gap: 0.5rem;
   padding: 1rem 2rem;
-  border-radius: 12px;
+  border-radius: 50px;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  transition: var(--transition);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   cursor: pointer;
-  border: none;
   position: relative;
   overflow: hidden;
 }
@@ -339,17 +338,37 @@ section {
 }
 
 .btn-secondary {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
   color: white !important;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
 }
 
+.btn-secondary::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.btn-secondary:hover::before {
+  left: 100%;
+}
+
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(102, 126, 234, 0.3);
+  border-color: var(--primary-color);
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
 }
 
 .btn-primary svg,
@@ -693,14 +712,18 @@ section {
 }
 
 /* Additional Skills Section */
-.additional-skills-section {
+#additional-skills-section {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 6rem 0;
   position: relative;
   overflow: hidden;
+
+  h2 {
+    color: var(--bg-white);
+  }
 }
 
-.additional-skills-section::before {
+#additional-skills-section::before {
   content: "";
   position: absolute;
   top: 0;
@@ -711,13 +734,13 @@ section {
   opacity: 0.3;
 }
 
-.additional-skills-section .section-title {
+#additional-skills-section .section-title {
   color: white;
   position: relative;
   z-index: 1;
 }
 
-.additional-skills-section .section-title::after {
+#additional-skills-section .section-title::after {
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 0.8),
@@ -908,7 +931,7 @@ section {
 
 /* Footer */
 .footer {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
   color: white;
   padding: 4rem 0 2rem;
   text-align: center;
@@ -922,14 +945,16 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  height: 2px;
+  height: 3px;
   background: linear-gradient(
     90deg,
     transparent,
     var(--primary-color),
     var(--secondary-color),
+    #f093fb,
     transparent
   );
+  box-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
 }
 
 .footer::after {
@@ -942,7 +967,7 @@ section {
   height: 200px;
   background: radial-gradient(
     ellipse at center,
-    rgba(102, 126, 234, 0.1) 0%,
+    rgba(102, 126, 234, 0.15) 0%,
     transparent 70%
   );
 }
@@ -1237,7 +1262,7 @@ section {
 
   .about-section,
   .tech-stack-section,
-  .additional-skills-section,
+  #additional-skills-section,
   .stats-section {
     padding: 4rem 0;
   }
