@@ -19,7 +19,7 @@ description: "Tech Lead passionné par les nouvelles technologies | Web, Mobile,
     <div class="hero-text">
       <div class="hero-badge">
         <span class="badge-dot"></span>
-        <span>Disponible pour de nouveaux projets</span>
+        <span>Disponible</span>
       </div>
       <h1 class="hero-title">
         Bonjour, je suis<br/>
@@ -75,10 +75,12 @@ description: "Tech Lead passionné par les nouvelles technologies | Web, Mobile,
 <!-- About Section -->
 <section class="about-section">
   <div class="container">
-    <h2 class="section-title">💫 À propos</h2>
+    <h2 class="section-title">💫 À propos de moi</h2>
     <p class="about-text">
-      Ingénieur logiciel et Tech Lead avec une expérience multi-stack. J'aime concevoir et livrer des produits robustes, 
-      accompagner les équipes et explorer les nouvelles technologies (Web, Mobile, Cloud, DevOps et Web3).
+      Tech Lead passionné avec plus de 8 ans d'expérience dans le développement logiciel. 
+      Je conçois et développe des solutions web et mobile innovantes en utilisant les dernières technologies. 
+      Mon expertise couvre l'architecture logicielle, le développement full-stack, le cloud et les méthodologies agiles. 
+      J'accompagne également les équipes dans leur montée en compétences et la mise en place des meilleures pratiques de développement.
     </p>
   </div>
 </section>
@@ -151,10 +153,10 @@ description: "Tech Lead passionné par les nouvelles technologies | Web, Mobile,
     <h2 class="section-title">📊 GitHub Stats</h2>
     <div class="stats-grid">
       <div class="stat-card">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=benoitrongeard&theme=react&hide_border=true&include_all_commits=true&layout=compact&exclude_repo=projet_jeux_video" alt="Top Languages" />
+        <img src="https://github-readme-stats-zeta-navy-63.vercel.app/api/top-langs/?username=benoitrongeard&theme=react&hide_border=true&include_all_commits=true&layout=compact&exclude_repo=projet_jeux_video" alt="Top Languages" />
       </div>
       <div class="stat-card">
-        <img src="https://github-readme-stats.vercel.app/api?username=benoitrongeard&rank_icon=github&theme=react&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
+        <img src="https://github-readme-stats-zeta-navy-63.vercel.app/api?username=benoitrongeard&rank_icon=github&theme=react&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
       </div>
     </div>
     <div class="contribution-graph">
@@ -169,13 +171,19 @@ description: "Tech Lead passionné par les nouvelles technologies | Web, Mobile,
 <!-- Footer -->
 <footer class="footer">
   <div class="container">
-    <p class="footer-text">💼 N'hésitez pas à me contacter pour discuter de vos projets !</p>
+    <!-- <p class="footer-text">💼 Intéressé par une collaboration ? Discutons de vos projets !</p> -->
     <div class="footer-links">
-      <a href="https://linkedin.com/in/benoit-rongeard-678258100" target="_blank">LinkedIn</a>
+      <a href="https://linkedin.com/in/benoit-rongeard-678258100" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
       <span>•</span>
-      <a href="https://instagram.com/benoit_rgd" target="_blank">Instagram</a>
+      <a href="https://github.com/benoitrongeard" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
       <span>•</span>
-      <a href="https://github.com/benoitrongeard" target="_blank">GitHub</a>
+      <a href="https://instagram.com/benoit_rgd" target="_blank" rel="noopener noreferrer">
+        Instagram
+      </a>
     </div>
     <p class="footer-copyright">© 2025 Benoît Rongeard. Tous droits réservés.</p>
   </div>
