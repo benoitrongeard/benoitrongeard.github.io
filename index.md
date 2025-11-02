@@ -45,7 +45,7 @@ description: "Tech Lead passionné par les nouvelles technologies | Web, Mobile,
         </div>
         <div class="meta-item">
           <span class="meta-icon">💼</span>
-          <span class="meta-text">8+ ans d'expérience</span>
+          <span class="meta-text">10+ ans d'expérience</span>
         </div>
       </div>
       <div class="hero-actions">
