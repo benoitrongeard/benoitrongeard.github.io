@@ -92,31 +92,57 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
     <div class="tech-category">
       <h3 class="tech-category-title">Frameworks</h3>
       <div class="tech-icons">
-        <img src="https://skillicons.dev/icons?i=angular,adonis,flutter,laravel,spring" alt="Frameworks" />
+        <div class="tech-icon-wrapper" title="Angular"><img src="https://skillicons.dev/icons?i=angular" alt="Angular" /></div>
+        <div class="tech-icon-wrapper" title="AdonisJS"><img src="https://skillicons.dev/icons?i=adonis" alt="AdonisJS" /></div>
+        <div class="tech-icon-wrapper" title="Flutter"><img src="https://skillicons.dev/icons?i=flutter" alt="Flutter" /></div>
+        <div class="tech-icon-wrapper" title="Laravel"><img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" /></div>
+        <div class="tech-icon-wrapper" title="Spring"><img src="https://skillicons.dev/icons?i=spring" alt="Spring" /></div>
       </div>
     </div>
     <div class="tech-category">
       <h3 class="tech-category-title">Langages</h3>
       <div class="tech-icons">
-        <img src="https://skillicons.dev/icons?i=ts,js,dart,reactivex,java,nodejs,php,solidity" alt="Languages" />
+        <div class="tech-icon-wrapper" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></div>
+        <div class="tech-icon-wrapper" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" /></div>
+        <div class="tech-icon-wrapper" title="Dart"><img src="https://skillicons.dev/icons?i=dart" alt="Dart" /></div>
+        <div class="tech-icon-wrapper" title="ReactiveX"><img src="https://skillicons.dev/icons?i=reactivex" alt="ReactiveX" /></div>
+        <div class="tech-icon-wrapper" title="Java"><img src="https://skillicons.dev/icons?i=java" alt="Java" /></div>
+        <div class="tech-icon-wrapper" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" /></div>
+        <div class="tech-icon-wrapper" title="PHP"><img src="https://skillicons.dev/icons?i=php" alt="PHP" /></div>
+        <div class="tech-icon-wrapper" title="Solidity"><img src="https://skillicons.dev/icons?i=solidity" alt="Solidity" /></div>
       </div>
     </div>
     <div class="tech-category">
       <h3 class="tech-category-title">Bases de données</h3>
       <div class="tech-icons">
-        <img src="https://skillicons.dev/icons?i=mysql,postgres" alt="Databases" />
+        <div class="tech-icon-wrapper" title="MySQL"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" /></div>
+        <div class="tech-icon-wrapper" title="PostgreSQL"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" /></div>
       </div>
     </div>
     <div class="tech-category">
       <h3 class="tech-category-title">Front-end & Styles</h3>
       <div class="tech-icons">
-        <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,sass" alt="Front-end" />
+        <div class="tech-icon-wrapper" title="HTML5"><img src="https://skillicons.dev/icons?i=html" alt="HTML5" /></div>
+        <div class="tech-icon-wrapper" title="CSS3"><img src="https://skillicons.dev/icons?i=css" alt="CSS3" /></div>
+        <div class="tech-icon-wrapper" title="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" /></div>
+        <div class="tech-icon-wrapper" title="Bootstrap"><img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" /></div>
+        <div class="tech-icon-wrapper" title="Sass"><img src="https://skillicons.dev/icons?i=sass" alt="Sass" /></div>
       </div>
     </div>
     <div class="tech-category">
       <h3 class="tech-category-title">Outils & Infrastructure</h3>
       <div class="tech-icons">
-        <img src="https://skillicons.dev/icons?i=kubernetes,docker,git,github,gitlab,netlify,vercel,postman,vite,vscode,ipfs" alt="Tools" />
+        <div class="tech-icon-wrapper" title="Kubernetes"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" /></div>
+        <div class="tech-icon-wrapper" title="Docker"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></div>
+        <div class="tech-icon-wrapper" title="Git"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></div>
+        <div class="tech-icon-wrapper" title="GitHub"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></div>
+        <div class="tech-icon-wrapper" title="GitLab"><img src="https://skillicons.dev/icons?i=gitlab" alt="GitLab" /></div>
+        <div class="tech-icon-wrapper" title="Netlify"><img src="https://skillicons.dev/icons?i=netlify" alt="Netlify" /></div>
+        <div class="tech-icon-wrapper" title="Vercel"><img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" /></div>
+        <div class="tech-icon-wrapper" title="Postman"><img src="https://skillicons.dev/icons?i=postman" alt="Postman" /></div>
+        <div class="tech-icon-wrapper" title="Vite"><img src="https://skillicons.dev/icons?i=vite" alt="Vite" /></div>
+        <div class="tech-icon-wrapper" title="VS Code"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" /></div>
+        <div class="tech-icon-wrapper" title="IPFS"><img src="https://skillicons.dev/icons?i=ipfs" alt="IPFS" /></div>
       </div>
     </div>
   </div>
