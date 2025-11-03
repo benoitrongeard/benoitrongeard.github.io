@@ -283,15 +283,6 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               </ul>
             </div>
           </div>
-          
-          <div class="position-card compact">
-            <div class="position-header">
-              <h4 class="position-title">💻 Développeur Full Stack</h4>
-              <div class="position-meta">
-                <span class="period">Septembre 2015 - Août 2018 (3 ans)</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       
@@ -341,11 +332,10 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
           
           <div class="position-card">
             <div class="position-header">
-              <h4 class="position-title">🎮 Projets Personnels</h4>
+              <h4 class="position-title">🚀 Réalisations</h4>
             </div>
             
             <div class="responsibilities">
-              <h5>🚀 Réalisations :</h5>
               <ul class="achievements-list">
                 <li><strong>Jeu Runner Mobile</strong> : Jeu JS avec Cordova et Phaser</li>
                 <li><strong>App Événementiel</strong> : Géolocalisation, scan QR, achat billets</li>
