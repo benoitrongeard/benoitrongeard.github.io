@@ -31,13 +31,14 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
         <span class="role-item">🚀 Full Stack Developer</span>
         <span class="role-separator">•</span>
         <span class="role-item">🧑‍💻 Freelance</span>    </div>
-      <p class="hero-description">
-        Passionné par les nouvelles technologies, je conçois et développe des solutions web et mobile innovantes. 
-        <br>
-        <br>
-        Polyvalent, j’interviens sur l’ensemble du cycle technique : front, backend, architecture applicative, pipelines CI/CD, industrialisation DevOps et déploiements cloud. J’apporte des solutions stables, performantes et maintenables.
-      </p>
-      <div class="hero-meta">
+      <div class="hero-description">
+        <p>
+          Passionné par les nouvelles technologies, je conçois et développe des solutions web et mobile innovantes. 
+          <br>
+          <br>
+          Polyvalent, j’interviens sur l’ensemble du cycle technique : front, backend, architecture applicative, pipelines CI/CD, industrialisation DevOps et déploiements cloud. J’apporte des solutions stables, performantes et maintenables.
+        </p>
+      </div>    <div class="hero-meta">
         <div class="meta-item">
           <span class="meta-icon">🎂</span>
           <span class="meta-text">31 ans</span>
@@ -85,12 +86,14 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
 <section class="about-section">
   <div class="container">
     <h2 class="section-title">💫 À propos de moi</h2>
-    <p class="about-text">
-      Tech Lead passionné avec plus de 10 ans d'expériences dans le développement logiciel. 
-      Je conçois et développe des solutions web et mobile innovantes en utilisant les dernières technologies. 
-      Mon expertise couvre l'architecture logicielle, le développement full-stack, les pratiques DEVOPS,le cloud et les méthodologies agiles. 
-      J'aime accompagner les équipes, améliorer les workflow de développement et livrer des produits de haute qualité qui répondent aux besoins des utilisateurs.
-    </p>
+    <div class="about-text">
+      <span class="about-text-inner">
+        Tech Lead passionné avec plus de 10 ans d'expériences dans le développement logiciel. 
+        Je conçois et développe des solutions web et mobile innovantes en utilisant les dernières technologies. 
+        Mon expertise couvre l'architecture logicielle, le développement full-stack, les pratiques DEVOPS,le cloud et les méthodologies agiles. 
+        J'aime accompagner les équipes, améliorer les workflow de développement et livrer des produits de haute qualité qui répondent aux besoins des utilisateurs.
+      </span>
+    </div>
   </div>
 </section>
 
