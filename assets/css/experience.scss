@@ -52,7 +52,7 @@ $card-hover-bg: rgba(255, 255, 255, 0.08);
     }
   }
 
-  .hero-content {
+  .hero-content-experience {
     position: relative;
     z-index: 1;
     text-align: center;
@@ -159,10 +159,6 @@ $card-hover-bg: rgba(255, 255, 255, 0.08);
   @media (max-width: 480px) {
     flex-direction: column;
     gap: 1rem;
-
-    .stat-item {
-      width: 100%;
-    }
   }
 }
 

@@ -10,12 +10,8 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
     <div class="hero-pattern"></div>
   </div>
   <div class="container">
-    <div class="hero-content">
+    <div class="hero-content-experience">
       <h1 class="hero-title">💼 Mon Expérience</h1>
-      <p class="hero-description">
-        Découvrez mon parcours professionnel de plus de 10 ans dans le développement logiciel, 
-        de développeur junior à Tech Lead expérimenté.
-      </p>
       <div class="experience-stats">
         <div class="stat-item">
           <span class="stat-number">10+</span>
@@ -27,7 +23,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
         </div>
         <div class="stat-item">
           <span class="stat-number">50+</span>
-          <span class="stat-label">Équipiers encadrés</span>
+          <span class="stat-label">Équipiers</span>
         </div>
       </div>
     </div>
