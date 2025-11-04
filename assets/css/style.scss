@@ -581,7 +581,7 @@ section {
     &::before {
       content: "";
       position: absolute;
-      inset: -100%;
+      inset: -150%;
       background: conic-gradient(
         from 0deg,
         var(--primary-color),
