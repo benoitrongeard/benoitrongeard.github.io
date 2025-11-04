@@ -11,7 +11,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
   </div>
   <div class="container">
     <div class="hero-content-experience">
-      <h1 class="hero-title">💼 Mon Expérience</h1>
+      <h1 class="hero-title">Mon Expérience</h1>
       <div class="experience-stats">
         <div class="stat-item">
           <span class="stat-number">10+</span>

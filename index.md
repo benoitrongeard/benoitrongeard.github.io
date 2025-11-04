@@ -91,7 +91,7 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
         Tech Lead passionné avec plus de 10 ans d'expériences dans le développement logiciel. 
         Je conçois et développe des solutions web et mobile innovantes en utilisant les dernières technologies. 
         Mon expertise couvre l'architecture logicielle, le développement full-stack, les pratiques DEVOPS,le cloud et les méthodologies agiles. 
-        J'aime accompagner les équipes, améliorer les workflow de développement et livrer des produits de haute qualité qui répondent aux besoins des utilisateurs.
+        J'aime accompagner les équipes, améliorer les workflows de développement et livrer des produits de haute qualité qui répondent aux besoins des utilisateurs.
       </span>
     </div>
   </div>
