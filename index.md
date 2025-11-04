@@ -104,57 +104,146 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
     <div class="tech-category">
       <h3 class="tech-category-title">Frameworks</h3>
       <div class="tech-icons">
-        <div class="tech-icon-wrapper" title="Angular"><img src="https://skillicons.dev/icons?i=angular" alt="Angular" /></div>
-        <div class="tech-icon-wrapper" title="AdonisJS"><img src="https://skillicons.dev/icons?i=adonis" alt="AdonisJS" /></div>
-        <div class="tech-icon-wrapper" title="Flutter"><img src="https://skillicons.dev/icons?i=flutter" alt="Flutter" /></div>
-        <div class="tech-icon-wrapper" title="Laravel"><img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" /></div>
-        <div class="tech-icon-wrapper" title="Spring"><img src="https://skillicons.dev/icons?i=spring" alt="Spring" /></div>
+        <div class="tech-icon-wrapper" title="Angular">
+          <span class="tech-name">Angular</span>
+          <img src="https://skillicons.dev/icons?i=angular" alt="Angular" />
+        </div>
+        <div class="tech-icon-wrapper" title="AdonisJS">
+          <span class="tech-name">AdonisJS</span>
+          <img src="https://skillicons.dev/icons?i=adonis" alt="AdonisJS" />
+        </div>
+        <div class="tech-icon-wrapper" title="Flutter">
+          <span class="tech-name">Flutter</span>
+          <img src="https://skillicons.dev/icons?i=flutter" alt="Flutter" />
+        </div>
+        <div class="tech-icon-wrapper" title="Laravel">
+          <span class="tech-name">Laravel</span>
+          <img src="https://skillicons.dev/icons?i=laravel" alt="Laravel" />
+        </div>
+        <div class="tech-icon-wrapper" title="Spring">
+          <span class="tech-name">Spring</span>
+          <img src="https://skillicons.dev/icons?i=spring" alt="Spring" />
+        </div>
       </div>
     </div>
     <div class="tech-category">
       <h3 class="tech-category-title">Langages</h3>
       <div class="tech-icons">
-        <div class="tech-icon-wrapper" title="TypeScript"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></div>
-        <div class="tech-icon-wrapper" title="JavaScript"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript" /></div>
-        <div class="tech-icon-wrapper" title="Dart"><img src="https://skillicons.dev/icons?i=dart" alt="Dart" /></div>
-        <div class="tech-icon-wrapper" title="ReactiveX"><img src="https://skillicons.dev/icons?i=reactivex" alt="ReactiveX" /></div>
-        <div class="tech-icon-wrapper" title="Java"><img src="https://skillicons.dev/icons?i=java" alt="Java" /></div>
-        <div class="tech-icon-wrapper" title="Node.js"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" /></div>
-        <div class="tech-icon-wrapper" title="PHP"><img src="https://skillicons.dev/icons?i=php" alt="PHP" /></div>
-        <div class="tech-icon-wrapper" title="Solidity"><img src="https://skillicons.dev/icons?i=solidity" alt="Solidity" /></div>
+        <div class="tech-icon-wrapper" title="TypeScript">
+          <span class="tech-name">TypeScript</span>
+          <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" />
+        </div>
+        <div class="tech-icon-wrapper" title="JavaScript">
+          <span class="tech-name">JavaScript</span>
+          <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
+        </div>
+        <div class="tech-icon-wrapper" title="Dart">
+          <span class="tech-name">Dart</span>
+          <img src="https://skillicons.dev/icons?i=dart" alt="Dart" />
+        </div>
+        <div class="tech-icon-wrapper" title="ReactiveX">
+          <span class="tech-name">ReactiveX</span>
+          <img src="https://skillicons.dev/icons?i=reactivex" alt="ReactiveX" />
+        </div>
+        <div class="tech-icon-wrapper" title="Java">
+          <span class="tech-name">Java</span>
+          <img src="https://skillicons.dev/icons?i=java" alt="Java" />
+        </div>
+        <div class="tech-icon-wrapper" title="Node.js">
+          <span class="tech-name">Node.js</span>
+          <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" />
+        </div>
+        <div class="tech-icon-wrapper" title="PHP">
+          <span class="tech-name">PHP</span>
+          <img src="https://skillicons.dev/icons?i=php" alt="PHP" />
+        </div>
+        <div class="tech-icon-wrapper" title="Solidity">
+          <span class="tech-name">Solidity</span>
+          <img src="https://skillicons.dev/icons?i=solidity" alt="Solidity" />
+        </div>
       </div>
     </div>
     <div class="tech-category">
       <h3 class="tech-category-title">Bases de données</h3>
       <div class="tech-icons">
-        <div class="tech-icon-wrapper" title="MySQL"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" /></div>
-        <div class="tech-icon-wrapper" title="PostgreSQL"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" /></div>
+        <div class="tech-icon-wrapper" title="MySQL">
+          <span class="tech-name">MySQL</span>
+          <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" />
+        </div>
+        <div class="tech-icon-wrapper" title="PostgreSQL">
+          <span class="tech-name">PostgreSQL</span>
+          <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" />
+        </div>
       </div>
     </div>
     <div class="tech-category">
       <h3 class="tech-category-title">Front-end & Styles</h3>
       <div class="tech-icons">
-        <div class="tech-icon-wrapper" title="HTML5"><img src="https://skillicons.dev/icons?i=html" alt="HTML5" /></div>
-        <div class="tech-icon-wrapper" title="CSS3"><img src="https://skillicons.dev/icons?i=css" alt="CSS3" /></div>
-        <div class="tech-icon-wrapper" title="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" /></div>
-        <div class="tech-icon-wrapper" title="Bootstrap"><img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" /></div>
-        <div class="tech-icon-wrapper" title="Sass"><img src="https://skillicons.dev/icons?i=sass" alt="Sass" /></div>
+        <div class="tech-icon-wrapper" title="HTML5">
+          <span class="tech-name">HTML5</span>
+          <img src="https://skillicons.dev/icons?i=html" alt="HTML5" />
+        </div>
+        <div class="tech-icon-wrapper" title="CSS3">
+          <span class="tech-name">CSS3</span>
+          <img src="https://skillicons.dev/icons?i=css" alt="CSS3" />
+        </div>
+        <div class="tech-icon-wrapper" title="Tailwind CSS">
+          <span class="tech-name">Tailwind</span>
+          <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" />
+        </div>
+        <div class="tech-icon-wrapper" title="Bootstrap">
+          <span class="tech-name">Bootstrap</span>
+          <img src="https://skillicons.dev/icons?i=bootstrap" alt="Bootstrap" />
+        </div>
+        <div class="tech-icon-wrapper" title="Sass">
+          <span class="tech-name">Sass</span>
+          <img src="https://skillicons.dev/icons?i=sass" alt="Sass" />
+        </div>
       </div>
     </div>
     <div class="tech-category">
       <h3 class="tech-category-title">Outils & Infrastructure</h3>
       <div class="tech-icons">
-        <div class="tech-icon-wrapper" title="Kubernetes"><img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" /></div>
-        <div class="tech-icon-wrapper" title="Docker"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></div>
-        <div class="tech-icon-wrapper" title="Git"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></div>
-        <div class="tech-icon-wrapper" title="GitHub"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></div>
-        <div class="tech-icon-wrapper" title="GitLab"><img src="https://skillicons.dev/icons?i=gitlab" alt="GitLab" /></div>
-        <div class="tech-icon-wrapper" title="Netlify"><img src="https://skillicons.dev/icons?i=netlify" alt="Netlify" /></div>
-        <div class="tech-icon-wrapper" title="Vercel"><img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" /></div>
-        <div class="tech-icon-wrapper" title="Postman"><img src="https://skillicons.dev/icons?i=postman" alt="Postman" /></div>
-        <div class="tech-icon-wrapper" title="Vite"><img src="https://skillicons.dev/icons?i=vite" alt="Vite" /></div>
-        <div class="tech-icon-wrapper" title="VS Code"><img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" /></div>
-        <div class="tech-icon-wrapper" title="IPFS"><img src="https://skillicons.dev/icons?i=ipfs" alt="IPFS" /></div>
+        <div class="tech-icon-wrapper" title="Kubernetes">
+          <span class="tech-name">Kubernetes</span>
+          <img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" />
+        </div>
+        <div class="tech-icon-wrapper" title="Docker">
+          <span class="tech-name">Docker</span>
+          <img src="https://skillicons.dev/icons?i=docker" alt="Docker" />
+        </div>
+        <div class="tech-icon-wrapper" title="Git">
+          <span class="tech-name">Git</span>
+          <img src="https://skillicons.dev/icons?i=git" alt="Git" />
+        </div>
+        <div class="tech-icon-wrapper" title="GitHub">
+          <span class="tech-name">GitHub</span>
+          <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
+        </div>
+        <div class="tech-icon-wrapper" title="GitLab">
+          <span class="tech-name">GitLab</span>
+          <img src="https://skillicons.dev/icons?i=gitlab" alt="GitLab" />
+        </div>
+        <div class="tech-icon-wrapper" title="Netlify">
+          <span class="tech-name">Netlify</span>
+          <img src="https://skillicons.dev/icons?i=netlify" alt="Netlify" />
+        </div>
+        <div class="tech-icon-wrapper" title="Vercel">
+          <span class="tech-name">Vercel</span>
+          <img src="https://skillicons.dev/icons?i=vercel" alt="Vercel" />
+        </div>
+        <div class="tech-icon-wrapper" title="Postman">
+          <span class="tech-name">Postman</span>
+          <img src="https://skillicons.dev/icons?i=postman" alt="Postman" />
+        </div>
+        <div class="tech-icon-wrapper" title="Vite">
+          <span class="tech-name">Vite</span>
+          <img src="https://skillicons.dev/icons?i=vite" alt="Vite" />
+        </div>
+        <div class="tech-icon-wrapper" title="IPFS">
+          <span class="tech-name">IPFS</span>
+          <img src="https://skillicons.dev/icons?i=ipfs" alt="IPFS" />
+        </div>
       </div>
     </div>
   </div>
