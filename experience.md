@@ -606,7 +606,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
 </section>
 
 <!-- Call to Action -->
-<section class="cta-section">
+<section class="footer">
   <div class="container">
     <div class="cta-content">
       <h2 class="cta-title">Intéressé par mon profil ?</h2>
