@@ -523,9 +523,14 @@
       font-weight: 700;
     }
   }
+
+  p {
+    color: var(--primary-color);
+    font-weight: 700;
+  }
 }
 
-.achievements-list li::before {
+.achievements-list li:not(.no-check)::before {
   content: "✓";
   background: linear-gradient(
     135deg,

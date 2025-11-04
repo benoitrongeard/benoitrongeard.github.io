@@ -50,7 +50,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
           <!-- Lead tech Multi-produits -->
           <div class="position-card">
             <div class="position-header">
-              <h4 class="position-title">🚀 Lead Tech - Multi-produits</h4>
+              <h4 class="position-title">Lead Tech - Multi-produits</h4>
               <div class="position-meta">
                 <span class="period">Juin 2023 - Présent (2 ans 5 mois)</span>
                 <span class="team-size">👥 18 personnes - 7 produits</span>
@@ -102,7 +102,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
           <!-- Move2Cloud -->
           <div class="position-card">
             <div class="position-header">
-              <h4 class="position-title">☁️ Lead Tech - Move2Cloud</h4>
+              <h4 class="position-title">Lead Tech - Move2Cloud</h4>
               <div class="position-meta">
                 <span class="period">Juin 2023 - Juin 2024 (1 an 1 mois)</span>
                 <span class="team-size">👥 2 personnes</span>
@@ -128,31 +128,22 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
                 <li>Configuration des pipelines CI/CD</li>
                 <li>Migration d'une architecture Docker Swarm vers Kubernetes (AKS)</li>
                 <li>Gestion des expositions réseau : Public VS Interne (Vnet/Subnet)</li>
-                <li>Mise en place et gestion des ressources Azure :
-                  <ul>
-                    <li>Azure Kubernetes Service (AKS)</li>
-                    <li>Azure Container Registry (ACR)</li>
-                    <li>Azure Storage</li>
-                    <li>Azure API Management</li>
-                    <li>Azure Gateway</li>
-                    <li>Azure PostgreSQL</li>
-                    <li>Azure Key Vaults</li>
-                  </ul>
+                <li>Mise en place et gestion des ressources Azure : <b>Azure Kubernetes Service (AKS)</b>, <b>Azure Container Registry (ACR)</b>, <b>Azure Storage</b>, <b>Azure API Management</b>, <b>Azure Gateway</b>, <b>Azure PostgreSQL</b>, <b>Azure Key Vaults</b>
                 </li>
               </ul>
             </div>
           </div>
-          
+
           <!-- Alerte Technique & Reflet Parc -->
           <div class="position-card">
             <div class="position-header">
-              <h4 class="position-title">📱 Lead Tech - Alerte Technique & Reflet Parc</h4>
+              <h4 class="position-title">Lead Tech - Alerte Technique & Reflet Parc</h4>
               <div class="position-meta">
                 <span class="period">Juin 2021 - Juin 2023 (2 ans 1 mois)</span>
                 <span class="team-size">👥 6 personnes</span>
               </div>
             </div>
-            
+
             <div class="tech-stack">
               <span class="tech-tag">Flutter</span>
               <span class="tech-tag">.NET Core</span>
@@ -165,10 +156,10 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               <span class="tech-tag">Swagger/OpenAPI</span>
               <span class="tech-tag">Azure AD</span>
             </div>
-            
+
             <div class="responsibilities">
               <p><strong>Méthodologie :</strong> Scrum</p>
-              
+
               <h5>🎯 Création des produits suivants :</h5>
               <ul class="project-list">
                 <li><strong>Alerte Technique</strong> : Application web permettant de remonter et de suivre les incidents sur les véhicules légers (bus/car) et lourds (tram). Elle propose un environnement multilingue et multi-profil avec des fonctionnalités comme :
@@ -190,7 +181,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
                   </ul>
                 </li>
               </ul>
-              
+
               <h5>✨ Réalisations clés :</h5>
               <ul class="achievements-list">
                 <li>Lead technique et encadrement : Gestion d'une équipe de développeurs sur des produits permettant la remontée et le suivi des incidents sur des véhicules</li>
@@ -203,17 +194,17 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               </ul>
             </div>
           </div>
-          
+
           <!-- Oskar -->
           <div class="position-card">
             <div class="position-header">
-              <h4 class="position-title">⚖️ Lead Dev - Oskar</h4>
+              <h4 class="position-title">Lead Dev - Oskar</h4>
               <div class="position-meta">
                 <span class="period">Mars 2019 - Mars 2021 (2 ans 1 mois)</span>
                 <span class="team-size">👥 7 personnes</span>
               </div>
             </div>
-            
+
             <div class="tech-stack">
               <span class="tech-tag">Java 8</span>
               <span class="tech-tag">Spring Boot 2</span>
@@ -224,11 +215,11 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               <span class="tech-tag">DevOps</span>
               <span class="tech-tag">CI/CD</span>
             </div>
-            
+
             <div class="responsibilities">
               <p><strong>Méthodologie :</strong> Scrum</p>
               <p><strong>Projet :</strong> Création de l'outil Oskar, outil de gestion de la fraude pour le groupe Keolis, permettant de gérer l'ensemble des étapes liées aux procès-verbaux des contrevenants, de leur création à leur résolution, y compris les relances et paiements en ligne.</p>
-              
+
               <h5>✨ Réalisations clés :</h5>
               <ul class="achievements-list">
                 <li>Conception technique et architectural : Supervision de l'architecture applicative et mise en place des différentes couches techniques</li>
@@ -246,7 +237,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
           </div>
         </div>
       </div>
-      
+
       <!-- Interpol -->
       <div class="timeline-item">
         <div class="timeline-marker">
@@ -258,16 +249,16 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
             <h3 class="company-name">Interpol</h3>
             <span class="duration">4 mois</span>
           </div>
-          
+
           <div class="position-card">
             <div class="position-header">
-              <h4 class="position-title">🔍 Lead Tech - Portail de recherche</h4>
+              <h4 class="position-title">Lead Tech - Portail de recherche</h4>
               <div class="position-meta">
                 <span class="period">Mars 2021 - Juin 2021 (4 mois)</span>
                 <span class="team-size">👥 3 personnes</span>
               </div>
             </div>
-            
+
             <div class="tech-stack">
               <span class="tech-tag">Angular</span>
               <span class="tech-tag">Angular Material</span>
@@ -276,10 +267,10 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               <span class="tech-tag">GitLab</span>
               <span class="tech-tag">CI/CD</span>
             </div>
-            
+
             <div class="responsibilities">
               <p><strong>Mission :</strong> Audit et refonte d'un portail web Angular permettant des recherches avancées sur des criminels pour faciliter le partage d'informations entre agences internationales.</p>
-              
+
               <h5>✨ Réalisations clés :</h5>
               <ul class="achievements-list">
                 <li>Audit & Rapport Applicatif : Réalisation d'un audit approfondi des performances et de la structure applicative, suivi de la livraison d'un rapport de recommandations</li>
@@ -293,7 +284,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
           </div>
         </div>
       </div>
-      
+
       <!-- GiSmartware -->
       <div class="timeline-item">
         <div class="timeline-marker">
@@ -305,16 +296,16 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
             <h3 class="company-name">GiSmartware</h3>
             <span class="duration">3 ans 7 mois</span>
           </div>
-          
+
           <div class="position-card">
             <div class="position-header">
-              <h4 class="position-title">🗺️ Lead Dev - R&D Produits SmartGeo</h4>
+              <h4 class="position-title">Lead Dev - R&D Produits SmartGeo</h4>
               <div class="position-meta">
                 <span class="period">Septembre 2018 - Mars 2019 (7 mois)</span>
                 <span class="team-size">👥 10 personnes</span>
               </div>
             </div>
-            
+
             <div class="tech-stack">
               <span class="tech-tag">AngularJS</span>
               <span class="tech-tag">Cordova</span>
@@ -329,11 +320,11 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               <span class="tech-tag">PostgreSQL</span>
               <span class="tech-tag">PostGIS</span>
             </div>
-            
+
             <div class="responsibilities">
               <p><strong>Méthodologie :</strong> Scrum</p>
               <p><strong>Projet :</strong> Maintenir et faire évoluer la solution SmartGeo : solution SIG web et mobile permettant aux collectivités/entreprises de gérer leurs réseaux d'eau/assainissement/telecom.</p>
-              
+
               <h5>✨ Réalisations clés :</h5>
               <ul class="achievements-list">
                 <li>Création de prototypes pour tester de nouveaux capteurs connectés (IoT)</li>
@@ -351,26 +342,9 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               </ul>
             </div>
           </div>
-          
-          <div class="position-card">
-            <div class="position-header">
-              <h4 class="position-title">💻 Développeur Web Fullstack - R&D Produits SmartGeo</h4>
-              <div class="position-meta">
-                <span class="period">Septembre 2015 - Août 2018 (3 ans)</span>
-              </div>
-            </div>
-            
-            <div class="tech-stack">
-              <span class="tech-tag">AngularJS</span>
-              <span class="tech-tag">Cordova</span>
-              <span class="tech-tag">jQuery</span>
-              <span class="tech-tag">PHP</span>
-              <span class="tech-tag">IoT</span>
-            </div>
-          </div>
         </div>
       </div>
-      
+
       <!-- Institut G4 -->
       <div class="timeline-item">
         <div class="timeline-marker">
@@ -382,15 +356,15 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
             <h3 class="company-name">Institut G4</h3>
             <span class="duration">2 ans</span>
           </div>
-          
+
           <div class="position-card">
             <div class="position-header">
-              <h4 class="position-title">👨‍🏫 Intervenant / Formateur Tech</h4>
+              <h4 class="position-title">Intervenant / Formateur Tech</h4>
               <div class="position-meta">
                 <span class="period">Janvier 2017 - Décembre 2018 (2 ans)</span>
               </div>
             </div>
-            
+
             <div class="responsibilities">
               <h5>📚 Formations dispensées :</h5>
               <ul class="achievements-list">
@@ -402,7 +376,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
           </div>
         </div>
       </div>
-      
+
       <!-- Projets académiques -->
       <div class="timeline-item">
         <div class="timeline-marker">
@@ -414,49 +388,46 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
             <h3 class="company-name">Projets Académiques</h3>
             <span class="duration">3 ans</span>
           </div>
-          
+
           <div class="position-card">
             <div class="position-header">
-              <h4 class="position-title">🚀 Réalisations</h4>
+              <h4 class="position-title">Réalisations</h4>
               <div class="position-meta">
                 <span class="period">Janvier 2016 - Décembre 2018</span>
               </div>
             </div>
-            
+
             <div class="responsibilities">
               <ul class="achievements-list">
-                <li><strong>App mobile : Jeu Runner</strong>
-                  <ul>
-                    <li>App mobile JS déployée à l'aide de Cordova</li>
-                    <li>Génération aléatoire de la map</li>
-                    <li>Gestion de score</li>
-                    <li>Optimisation ressources</li>
-                    <li>Gestion des différentes actions du personnage</li>
-                    <li>Utilisation de la librairie Phaser</li>
-                  </ul>
-                </li>
-                <li><strong>Application mobile dans le domaine de l'événementiel</strong>
-                  <ul>
-                    <li>Carte interactive avec des filtres avancés pour retrouver les événements proche de chez soi (Géolocalisation, Comparaison de coordonnées géographiques, etc)</li>
-                    <li>Scan QR code pour valider les billets</li>
-                    <li>Achat de billets pour un événement</li>
-                    <li>Système de notation et de commentaires</li>
-                  </ul>
-                </li>
-                <li><strong>Application mobile dédiée à la virtualisation de salon</strong>
-                  <ul>
-                    <li>Scan de QR code pour autoriser/refuser l'accès à un salon</li>
-                    <li>Consultation d'un planning (Voir les différentes conférences sur un salon)</li>
-                    <li>Pouvoir s'inscrire à une conférence</li>
-                    <li>Inscription / Connexion d'un utilisateur</li>
-                  </ul>
-                </li>
+                <p><strong>App mobile : Jeu Runner</strong></p>
+                <ul>
+                  <li>App mobile JS déployée à l'aide de Cordova</li>
+                  <li>Génération aléatoire de la map</li>
+                  <li>Gestion de score</li>
+                  <li>Optimisation ressources</li>
+                  <li>Gestion des différentes actions du personnage</li>
+                  <li>Utilisation de la librairie Phaser</li>
+                </ul>
+                <p><strong>Application mobile dans le domaine de l'événementiel</strong></p>
+                <ul>
+                  <li>Carte interactive avec des filtres avancés pour retrouver les événements proche de chez soi (Géolocalisation, Comparaison de coordonnées géographiques, etc)</li>
+                  <li>Scan QR code pour valider les billets</li>
+                  <li>Achat de billets pour un événement</li>
+                  <li>Système de notation et de commentaires</li>
+                </ul>
+                <p><strong>Application mobile dédiée à la virtualisation de salon</strong></p>
+                <ul>
+                  <li>Scan de QR code pour autoriser/refuser l'accès à un salon</li>
+                  <li>Consultation d'un planning (Voir les différentes conférences sur un salon)</li>
+                  <li>Pouvoir s'inscrire à une conférence</li>
+                  <li>Inscription / Connexion d'un utilisateur</li>
+                </ul>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      
+
       <!-- Premiers emplois -->
       <div class="timeline-item">
         <div class="timeline-marker">
@@ -467,15 +438,15 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
           <div class="company-header">
             <h3 class="company-name">Débuts Professionnels</h3>
           </div>
-          
+
           <div class="position-card compact">
             <div class="position-header">
-              <h4 class="position-title">🛍️ WEB E-NOV - Développeur PrestaShop</h4>
+              <h4 class="position-title">WEB E-NOV - Développeur PrestaShop</h4>
               <div class="position-meta">
                 <span class="period">Juin 2014 - Juillet 2014 (2 mois) - Beynost</span>
               </div>
             </div>
-            
+
             <div class="tech-stack">
               <span class="tech-tag">HTML/CSS</span>
               <span class="tech-tag">Bootstrap</span>
@@ -484,7 +455,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               <span class="tech-tag">SQL</span>
               <span class="tech-tag">PrestaShop</span>
             </div>
-            
+
             <div class="responsibilities">
               <p><strong>Mission :</strong> CDD - Développement web pour des sites e-commerce, développement de module pour PrestaShop</p>
               <h5>✨ Réalisations clés :</h5>
@@ -496,15 +467,15 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               </ul>
             </div>
           </div>
-          
+
           <div class="position-card compact">
             <div class="position-header">
-              <h4 class="position-title">📚 Stage - ERP Maisons d'Éditions PAQUET</h4>
+              <h4 class="position-title">Stage - ERP Maisons d'Éditions PAQUET</h4>
               <div class="position-meta">
                 <span class="period">Mars 2014 - Juin 2014 (4 mois) - Beynost</span>
               </div>
             </div>
-            
+
             <div class="tech-stack">
               <span class="tech-tag">HTML/CSS</span>
               <span class="tech-tag">Bootstrap</span>
@@ -516,7 +487,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               <span class="tech-tag">GitHub</span>
               <span class="tech-tag">SFTP</span>
             </div>
-            
+
             <div class="responsibilities">
               <p><strong>Mission :</strong> Développement d'un ERP dédié à la gestion des maisons d'Éditions PAQUET</p>
               <p><strong>Équipe :</strong> 3 personnes</p>
@@ -530,15 +501,15 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               </ul>
             </div>
           </div>
-          
+
           <div class="position-card compact">
             <div class="position-header">
-              <h4 class="position-title">🥾 Université Claude Bernard Lyon 1 - Projet Tuteuré</h4>
+              <h4 class="position-title">Université Claude Bernard Lyon 1 - Projet Tuteuré</h4>
               <div class="position-meta">
                 <span class="period">Novembre 2013 - Février 2014 (4 mois)</span>
               </div>
             </div>
-            
+
             <div class="tech-stack">
               <span class="tech-tag">HTML/CSS</span>
               <span class="tech-tag">Bootstrap</span>
@@ -549,7 +520,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
               <span class="tech-tag">Git</span>
               <span class="tech-tag">GitHub</span>
             </div>
-            
+
             <div class="responsibilities">
               <p><strong>Projet :</strong> Développement d'un site internet dédié à la randonnée</p>
               <p><strong>Équipe :</strong> 3 développeurs</p>
@@ -567,8 +538,9 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
           </div>
         </div>
       </div>
-      
+
     </div>
+
   </div>
 </section>
 
