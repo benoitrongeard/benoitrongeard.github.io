@@ -391,7 +391,6 @@ $card-hover-bg: rgba(255, 255, 255, 0.08);
   }
 
   &:hover {
-    // transform: translateY(-8px) scale(1.02);
     background: $card-hover-bg;
     border-color: rgba(102, 126, 234, 0.3);
     box-shadow: 0 16px 48px rgba(102, 126, 234, 0.2);
@@ -409,6 +408,10 @@ $card-hover-bg: rgba(255, 255, 255, 0.08);
     padding: 1.5rem;
     background: rgba(102, 126, 234, 0.05);
     border-left: 4px solid var(--primary-color);
+
+    &::before {
+      display: none;
+    }
   }
 
   @media (max-width: 768px) {
