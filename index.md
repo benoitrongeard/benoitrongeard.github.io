@@ -111,10 +111,6 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
             <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" />
             <span class="tech-name">TypeScript</span>
           </div>
-          <div class="tech-icon-wrapper" title="JavaScript">
-            <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" />
-            <span class="tech-name">JavaScript</span>
-          </div>
           <div class="tech-icon-wrapper" title="Node.js">
             <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" />
             <span class="tech-name">Node.js</span>
@@ -147,6 +143,10 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
             <img src="https://skillicons.dev/icons?i=reactivex" alt="ReactiveX" />
             <span class="tech-name">ReactiveX</span>
           </div>
+          <div class="tech-icon-wrapper" title="Firebase">
+            <img src="https://skillicons.dev/icons?i=firebase" alt="Firebase" />
+            <span class="tech-name">Firebase</span>
+          </div>
         </div>
       </div>
 
@@ -154,6 +154,10 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
       <div class="bento-card span-5">
         <h3 class="bento-card-title">Mobile</h3>
         <div class="tech-icons">
+          <div class="tech-icon-wrapper" title="Ionic">
+            <img src="https://raw.githubusercontent.com/ionic-team/ionic-framework/refs/heads/main/.github/assets/logo.png" alt="Ionic" />
+            <span class="tech-name">Ionic</span>
+          </div>
           <div class="tech-icon-wrapper" title="Flutter">
             <img src="https://skillicons.dev/icons?i=flutter" alt="Flutter" />
             <span class="tech-name">Flutter</span>
@@ -208,6 +212,10 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
       <div class="bento-card span-7">
         <h3 class="bento-card-title">DevOps & Cloud</h3>
         <div class="tech-icons">
+          <div class="tech-icon-wrapper" title="Azure">
+            <img src="https://skillicons.dev/icons?i=azure" alt="Azure" />
+            <span class="tech-name">Azure</span>
+          </div>
           <div class="tech-icon-wrapper" title="Kubernetes">
             <img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" />
             <span class="tech-name">Kubernetes</span>
@@ -263,6 +271,10 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
             <img src="https://skillicons.dev/icons?i=vite" alt="Vite" />
             <span class="tech-name">Vite</span>
           </div>
+          <div class="tech-icon-wrapper" title="VSCode">
+            <img src="https://skillicons.dev/icons?i=vscode" alt="Visual Studio Code" />
+            <span class="tech-name">VSCode</span>
+          </div>
         </div>
       </div>
     </div>
@@ -273,24 +285,56 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
 <!-- Additional Skills Section -->
 <section id="additional-skills-section">
   <div class="container">
-    <h2 class="section-title">Compétences additionnelles</h2>
-    <div class="badges-container">
-      <img src="https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white" alt="Bulma">
-      <img src="https://img.shields.io/badge/Ionic-%233880FF.svg?style=for-the-badge&logo=Ionic&logoColor=white" alt="Ionic">
-      <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" alt="NPM">
-      <img src="https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220" alt="PNPM">
-      <img src="https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white" alt="RxJS">
-      <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="SASS">
-      <img src="https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white" alt="Web3.js">
-      <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" alt="Firebase">
-      <img src="https://img.shields.io/badge/argo-EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white&color=%23EF7B4D" alt="ArgoCD">
-      <img src="https://img.shields.io/badge/azuredevops-0078D7.svg?style=for-the-badge&logo=azuredevops&logoColor=white&color=%230078D7" alt="Azure DevOps">
-      <img src="https://img.shields.io/badge/sonarqube-4E9BCD.svg?style=for-the-badge&logo=sonarqube&logoColor=white&color=%234E9BCD" alt="SonarQube">
-      <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white" alt="Notion">
-      <img src="https://img.shields.io/badge/OpenSea-%232081E2.svg?style=for-the-badge&logo=opensea&logoColor=white" alt="OpenSea">
-      <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
-      <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Swagger">
-      <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="Netlify">
+    <h2 class="section-title">🎯 Compétences additionnelles</h2>
+    <div class="skills-floating-container">
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white" alt="Bulma">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/Ionic-%233880FF.svg?style=for-the-badge&logo=Ionic&logoColor=white" alt="Ionic">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" alt="NPM">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220" alt="PNPM">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white" alt="RxJS">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white" alt="SASS">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white" alt="Web3.js">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white" alt="Firebase">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/argo-EF7B4D.svg?style=for-the-badge&logo=argo&logoColor=white&color=%23EF7B4D" alt="ArgoCD">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/azuredevops-0078D7.svg?style=for-the-badge&logo=azuredevops&logoColor=white&color=%230078D7" alt="Azure DevOps">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/sonarqube-4E9BCD.svg?style=for-the-badge&logo=sonarqube&logoColor=white&color=%234E9BCD" alt="SonarQube">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white" alt="Notion">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/OpenSea-%232081E2.svg?style=for-the-badge&logo=opensea&logoColor=white" alt="OpenSea">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Swagger">
+      </div>
+      <div class="skill-badge-card">
+        <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="Netlify">
+      </div>
     </div>
   </div>
 </section>
