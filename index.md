@@ -97,6 +97,61 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
   </div>
 </section>
 
+<!-- Experience CTA Section -->
+<section class="experience-cta-section">
+  <div class="experience-cta-background">
+    <div class="floating-orb orb-1"></div>
+    <div class="floating-orb orb-2"></div>
+    <div class="floating-orb orb-3"></div>
+  </div>
+  <div class="container">
+    <div class="experience-cta-content">
+      <div class="experience-cta-icon">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+          <path d="M8 21h8M12 17v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M8 7l-2 3 2 3M16 7l2 3-2 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 10h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="18" cy="5" r="0.5" fill="currentColor"/>
+          <circle cx="20" cy="7" r="0.5" fill="currentColor"/>
+          <circle cx="4" cy="6" r="0.5" fill="currentColor"/>
+          <circle cx="5" cy="15" r="0.5" fill="currentColor"/>
+        </svg>
+      </div>
+      <h2 class="experience-cta-title">
+        <span class="title-highlight">10+ ans</span> d'expériences à découvrir
+      </h2>
+      <p class="experience-cta-description">
+        Parcours, projets emblématiques, missions réussies... Découvrez mon expérience professionnelle en détail !
+      </p>
+      <div class="experience-cta-stats">
+        <div class="cta-stat">
+          <span class="stat-number">10+</span>
+          <span class="stat-label">Années</span>
+        </div>
+        <div class="cta-stat-divider"></div>
+        <div class="cta-stat">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Projets</span>
+        </div>
+        <div class="cta-stat-divider"></div>
+        <div class="cta-stat">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Clients</span>
+        </div>
+      </div>
+      <a href="/experience" class="experience-cta-button">
+        <span class="button-text">Découvrir mon parcours</span>
+        <span class="button-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- Tech Stack Section -->
 <section class="tech-stack-section">
   <div class="container">
