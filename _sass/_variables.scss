@@ -1,0 +1,20 @@
+// Breakpoints
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 992px;
+$bp-large: 1200px;
+
+// Animation timing
+$anim-fast: 0.3s;
+$anim-normal: 0.4s;
+$anim-slow: 0.8s;
+
+/* Variables spécifiques à la page expérience */
+$timeline-color: linear-gradient(
+  180deg,
+  var(--primary-color),
+  var(--secondary-color)
+);
+$card-glass-bg: rgba(255, 255, 255, 0.05);
+$card-glass-border: rgba(255, 255, 255, 0.1);
+$card-hover-bg: rgba(255, 255, 255, 0.08);
