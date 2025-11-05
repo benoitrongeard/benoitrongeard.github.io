@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ site.lang | default: 'fr' }}">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,23 +13,106 @@
       media="screen"
       type="text/css"
     />
-    <link
-      rel="stylesheet"
-      href="{{ '/assets/css/experience.css' | relative_url }}"
-      media="screen"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ '/assets/css/print.css' | relative_url }}"
-      media="print"
-      type="text/css"
-    />
 
     <title>{{ page.title | default: site.title }}</title>
+
+    <!-- Language Detection & Redirect Script -->
+    <script>
+      (function () {
+        const SUPPORTED_LANGS = ["fr", "en"];
+        const DEFAULT_LANG = "fr";
+        const STORAGE_KEY = "preferredLanguage";
+
+        const storedLang = localStorage.getItem(STORAGE_KEY);
+
+        const currentPath = window.location.pathname;
+        const currentLang = currentPath.startsWith("/en") ? "en" : "fr";
+
+        if (storedLang && storedLang !== currentLang) {
+          const cleanPath = currentPath.replace(/^\/en/, "") || "/";
+          const newPath = storedLang === "en" ? "/en" + cleanPath : cleanPath;
+
+          window.location.replace(newPath);
+        } else if (!storedLang) {
+          const browserLang = (navigator.language || navigator.userLanguage)
+            .split("-")[0]
+            .toLowerCase();
+
+          const targetLang = SUPPORTED_LANGS.includes(browserLang)
+            ? browserLang
+            : DEFAULT_LANG;
+
+          localStorage.setItem(STORAGE_KEY, targetLang);
+
+          if (targetLang !== currentLang) {
+            const cleanPath = currentPath.replace(/^\/en/, "") || "/";
+            const newPath = targetLang === "en" ? "/en" + cleanPath : cleanPath;
+            window.location.replace(newPath);
+          }
+        } else {
+          localStorage.setItem(STORAGE_KEY, currentLang);
+        }
+      })();
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const STORAGE_KEY = "preferredLanguage";
+        const currentPath = window.location.pathname;
+        const currentLang = currentPath.startsWith("/en") ? "en" : "fr";
+
+        window.switchLanguage = function (lang) {
+          if (lang === currentLang) {
+            return;
+          }
+
+          localStorage.setItem(STORAGE_KEY, lang);
+
+          const cleanPath = currentPath.replace(/^\/en/, "") || "/";
+          const newPath = lang === "en" ? "/en" + cleanPath : cleanPath;
+
+          window.location.replace(newPath);
+        };
+
+        const updateActiveButton = () => {
+          const frBtn = document.getElementById("lang-fr");
+          const enBtn = document.getElementById("lang-en");
+
+          if (frBtn && enBtn) {
+            if (currentLang === "fr") {
+              frBtn.classList.add("active");
+              enBtn.classList.remove("active");
+            } else {
+              enBtn.classList.add("active");
+              frBtn.classList.remove("active");
+            }
+          }
+        };
+
+        updateActiveButton();
+      });
+    </script>
   </head>
 
   <body>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+      <button
+        id="lang-fr"
+        class="lang-btn"
+        onclick="switchLanguage('fr')"
+        aria-label="Français"
+      >
+        FR
+      </button>
+      <button
+        id="lang-en"
+        class="lang-btn"
+        onclick="switchLanguage('en')"
+        aria-label="English"
+      >
+        EN
+      </button>
+    </div>
+
     <!-- <header>
       <div class="inner">
         <h1>{{ site.title }}</h1>

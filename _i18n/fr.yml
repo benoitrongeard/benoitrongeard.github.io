@@ -1,0 +1,18 @@
+hero:
+  badge: "Disponible"
+  title: "Bonjour, je suis"
+  name: "Benoît Rongeard"
+  roles:
+    techlead: "Tech Lead"
+    fullstack: "Full Stack Developer"
+    freelance: "Freelance"
+  description: "Passionné par les nouvelles technologies, je conçois et développe des solutions web et mobile innovantes."
+  meta:
+    age: "31 ans"
+    location: "France"
+    experience: "10+ ans d'expériences"
+  cta:
+    experience: "Mon Expérience"
+    linkedin: "Me contacter"
+    github: "Voir GitHub"
+    instagram: "Instagram"

@@ -11,7 +11,7 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
   </div>
   <div class="container">
     <div class="hero-content-experience">
-      <h1 class="hero-title">Mon Expérience</h1>
+      <h1 class="hero-title"><span>{% t hero.badge %}</span></h1>
       <div class="experience-stats">
         <div class="stat-item">
           <span class="stat-number">10+</span>
@@ -590,7 +590,12 @@ description: "Découvrez mon parcours professionnel détaillé : 10+ ans d'expé
           </svg>
           <span>Me contacter</span>
         </a>
-        <a href="/" class="btn-primary btn-exp">
+        {% if site.lang == "en" %}
+          {% capture home_link %}{{ site.baseurl_root }}/en{% endcapture %}
+        {% else %}
+          {% capture home_link %}{{ site.baseurl_root }}{% endcapture %}
+        {% endif %}
+        <a href="{{ home_link }}" class="btn-primary btn-exp">
           <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
             <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
           </svg>
