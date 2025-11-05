@@ -9,6 +9,19 @@ description: "{% t experience.meta.description %}"
   <div class="hero-background">
     <div class="hero-pattern"></div>
   </div>
+  
+  {% if site.lang == "en" %}
+    {% capture home_link %}/en{% endcapture %}
+  {% else %}
+    {% capture home_link %}/{% endcapture %}
+  {% endif %}
+  <a href="{{ home_link }}" class="back-button" aria-label="Retour à l'accueil">
+    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+    </svg>
+    <span class="back-text">{% t cta.home %}</span>
+  </a>
+  
   <div class="container">
     <div class="hero-content-experience">
       <h1 class="hero-title"><span>{% t experience.hero.title %}</span></h1>
@@ -554,9 +567,9 @@ description: "{% t experience.meta.description %}"
           <span>{% t cta.contact %}</span>
         </a>
         {% if site.lang == "en" %}
-          {% capture home_link %}{{ site.baseurl_root }}/en{% endcapture %}
+          {% capture home_link %}/en{% endcapture %}
         {% else %}
-          {% capture home_link %}{{ site.baseurl_root }}{% endcapture %}
+          {% capture home_link %}/{% endcapture %}
         {% endif %}
         <a href="{{ home_link }}" class="btn-primary btn-exp">
           <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">

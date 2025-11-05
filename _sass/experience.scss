@@ -2,6 +2,85 @@
    PAGE EXPÉRIENCE - DESIGN MODERNE AVEC TIMELINE ET GLASSMORPHISM
    ================================================================ */
 
+.back-button {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+
+  svg {
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .back-text {
+    display: inline-block;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateX(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+
+    svg {
+      transform: translateX(-3px);
+    }
+  }
+
+  &:active {
+    transform: translateX(-3px) scale(0.98);
+  }
+
+  @media (max-width: $bp-tablet) {
+    top: 1.5rem;
+    left: 1.5rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+    gap: 0.5rem;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  @media (max-width: $bp-mobile) {
+    top: 1rem;
+    left: 1rem;
+    padding: 0.625rem 1rem;
+    font-size: 0.9rem;
+
+    .back-text {
+      display: none;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    &:hover {
+      transform: translateX(-3px);
+    }
+  }
+}
+
 /* ===========================
    HERO SECTION - EXPÉRIENCE
    =========================== */
