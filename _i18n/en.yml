@@ -3,10 +3,11 @@ hero:
   title: "Hello, I'm"
   name: "Benoît Rongeard"
   roles:
-    techlead: "Tech Lead"
-    fullstack: "Full Stack Developer"
-    freelance: "Freelance"
-  description: "Passionate about new technologies, I design and develop innovative web and mobile solutions."
+    techlead: "💻 Tech Lead"
+    fullstack: "🚀 Full Stack Developer"
+    freelance: "🧑‍💻 Freelance"
+  description_1: "Passionate about new technologies, I design and develop innovative web and mobile solutions."
+  description_2: "Versatile, I work across the entire technical cycle: frontend, backend, application architecture, CI/CD pipelines, DevOps industrialization, and cloud deployments. I deliver stable, performant, and maintainable solutions."
   meta:
     age: "31 years old"
     location: "France"
@@ -16,3 +17,335 @@ hero:
     linkedin: "Contact Me"
     github: "View GitHub"
     instagram: "Instagram"
+
+about:
+  title: "💫 About Me"
+  description: "Passionate Tech Lead with over 10 years of experience in software development. I design and develop innovative web and mobile solutions using the latest technologies. My expertise covers software architecture, full-stack development, DevOps practices, cloud, and agile methodologies. I enjoy supporting teams, improving development workflows, and delivering high-quality products that meet user needs."
+
+experience_cta:
+  title_highlight: "10+ years"
+  title: "of experience to discover"
+  description: "Career path, flagship projects, successful missions... Discover my professional experience in detail!"
+  stats:
+    years: "Years"
+    projects: "Projects"
+    clients: "Clients"
+  button: "Discover my journey"
+
+tech_stack:
+  title: "💻 Tech Stack"
+  categories:
+    full_stack: "Full Stack Development"
+    mobile: "Mobile"
+    databases: "Databases"
+    frontend: "Frontend & UI"
+    devops: "DevOps & Cloud"
+    web3: "Web3"
+    dev_tools: "Dev Tools"
+
+additional_skills:
+  title: "🎯 Additional Skills"
+
+github_stats:
+  title: "📊 GitHub Stats"
+
+footer:
+  text: "💼 Interested in collaborating? Let's discuss your projects!"
+  copyright: "© 2025 Benoît Rongeard. All rights reserved."
+  links:
+    linkedin: "LinkedIn"
+    github: "GitHub"
+    instagram: "Instagram"
+
+experience:
+  meta:
+    title: "Experience"
+    description: "Discover my detailed professional journey: 10+ years of experience as Tech Lead and Full Stack Developer"
+  hero:
+    title: "My Experience"
+    stats:
+      years: "Years of experience"
+      projects: "Completed projects"
+      team: "Team members"
+
+  timeline:
+    coexya:
+      company: "Coexya - Keolis SA"
+      duration: "6 years 8 months"
+      period: "2018 - Present"
+
+      multi_products:
+        title: "Lead Tech - Multi-products"
+        period: "June 2023 - Present (2 years 5 months)"
+        team: "👥 18 people - 7 products"
+        methodology: "Methodology:"
+        methodology_value: "Scrum"
+        products_title: "🎯 Maintain and develop the following products:"
+        products:
+          mks: "<strong>MKS</strong>: Web portal/Mobile application designed for bus drivers. Enables schedule consultation, leave requests/changes management. High daily user volume context (15K)"
+          alerte: "<strong>Technical Alert</strong>: Web application for reporting and tracking incidents on light vehicles (buses/shuttles) and heavy vehicles (trams) until the anomaly is addressed"
+          oskar: "<strong>Oskar</strong>: Fraud management tool for the Keolis group, managing all stages related to offender tickets, from creation to resolution, including reminders and online payments"
+          backoffice: "<strong>Back Office</strong>: Administration back office for various products (Translation management, users and their rights/profiles/configurations, reference data, application configurations)"
+        achievements_title: "✨ Key achievements:"
+        achievements:
+          - "Implementation of code quality controls (ESLint, Prettier, SonarQube, Mend) to ensure good standards"
+          - "Git workflow standardization (GitLab Flow) with branch management per environment and product version tracking"
+          - "Code review"
+          - "Technical debt management and performance optimizations"
+          - "CI/CD pipeline management, infrastructure, and API Managers"
+          - "Technical designs and software architecture"
+          - "Organization of technical workshops and micro-trainings"
+          - "Participation in production deployments"
+          - "POC realization"
+          - "Technical audits to improve performance and security"
+          - "Contribution to roadmap organization and workshops with different business units"
+
+      move2cloud:
+        title: "Lead Tech - Move2Cloud"
+        period: "June 2023 - June 2024 (1 year 1 month)"
+        team: "👥 2 people"
+        mission: "Mission:"
+        mission_value: "Migration of all Keolis products (MKS/Reporting/Oskar/Back Office/MyScreen) hosted on-premise to Azure cloud architecture for greater flexibility, performance, and simplified deployments."
+        achievements_title: "✨ Key achievements:"
+        achievements:
+          - "Infrastructure management with Azure Resource Manager (IaC)"
+          - "CI/CD pipeline configuration"
+          - "Migration from Docker Swarm architecture to Kubernetes (AKS)"
+          - "Network exposure management: Public VS Internal (Vnet/Subnet)"
+          - "Setup and management of Azure resources: <b>Azure Kubernetes Service (AKS)</b>, <b>Azure Container Registry (ACR)</b>, <b>Azure Storage</b>, <b>Azure API Management</b>, <b>Azure Gateway</b>, <b>Azure PostgreSQL</b>, <b>Azure Key Vaults</b>"
+
+      alerte_reflet:
+        title: "Lead Tech - Technical Alert & Reflet Parc"
+        period: "June 2021 - June 2023 (2 years 1 month)"
+        team: "👥 6 people"
+        methodology: "Methodology:"
+        methodology_value: "Scrum"
+        products_title: "🎯 Creation of the following products:"
+        products:
+          alerte_technique:
+            title: "<strong>Technical Alert</strong>: Web application for reporting and tracking incidents on light vehicles (buses/shuttles) and heavy vehicles (trams). It offers a multilingual and multi-profile environment with features such as:"
+            features:
+              - "Incident tracking via a dashboard containing key indicators"
+              - "Advanced search by vehicle, alert number, etc."
+              - "Alert lifecycle management"
+              - "Notifications (Manufacturer reminder, Alert tracking)"
+              - "Chat allowing exchanges between users"
+              - "User preference management"
+              - "Customized subsidiary configurations"
+          reflet_parc:
+            title: "<strong>Reflet Parc</strong>: Data repository for light and heavy vehicles, with features including:"
+            features:
+              - "Automated and manual data imports"
+              - "API services provision for repository use across group products"
+              - "OpenAPI documentation"
+        achievements_title: "✨ Key achievements:"
+        achievements:
+          - "Technical leadership and supervision: Managing a team of developers on products enabling incident reporting and tracking on vehicles"
+          - "Web application development with Flutter: Design and implementation of application architecture"
+          - "Unit testing implementation to ensure good code coverage"
+          - "Code quality monitoring tool integration: Sonar / Mend bold"
+          - "CI/CD pipeline implementation: Managing integration and continuous deployment (CI/CD) pipelines on Azure, test and deployment automation. Writing ARM templates (IaS) to deploy application infrastructure"
+          - "API and Azure architecture management: API Manager administration on Azure for secure service management"
+          - "Logic App implementation (no code) for email notification workflows"
+
+      oskar:
+        title: "Lead Dev - Oskar"
+        period: "March 2019 - March 2021 (2 years 1 month)"
+        team: "👥 7 people"
+        methodology: "Methodology:"
+        methodology_value: "Scrum"
+        project: "Project:"
+        project_value: "Creation of the Oskar tool, a fraud management tool for the Keolis group, managing all stages related to offender tickets, from creation to resolution, including reminders and online payments."
+        achievements_title: "✨ Key achievements:"
+        achievements:
+          - "Technical and architectural design: Application architecture supervision and implementation of various technical layers"
+          - "Team management and code review: Managing a team of 5 developers, code reviews and training"
+          - "Functional solution proposals: Direct collaboration with the client to understand business needs and propose adapted functional improvements (ticket management, GDPR anonymization, online payment module)"
+          - "DevOps architecture implementation: CI/CD pipeline implementation on GitLab to automate tests, integrations and deployments"
+          - "External service integration: Connection and integration of services (Stop/site repository, API Gouv, and Azure Active Directory, SIPS payment interfaces)"
+          - "Git/Azure DevOps workflow review: Implementation of optimized workflows for branch management and different product versions. Integration between board part (Bugs/US) and Merge Requests"
+          - "Payment module development for settling infractions"
+          - "Data archiving module development"
+          - "Infraction reminder/increase module development by email and SMS"
+          - "Configurable data export module development"
+
+    interpol:
+      company: "Interpol"
+      duration: "4 months"
+      period: "2021"
+      title: "Lead Tech - Search Portal"
+      period_detail: "March 2021 - June 2021 (4 months)"
+      team: "👥 3 people"
+      mission: "Mission:"
+      mission_value: "Audit and redesign of an Angular web portal enabling advanced searches for criminals to facilitate information sharing between international agencies."
+      achievements_title: "✨ Key achievements:"
+      achievements:
+        - "Application Audit & Report: Comprehensive audit of performance and application structure, followed by delivery of a recommendations report"
+        - "Architecture Redesign: Restructuring of the Angular portal architecture to improve maintainability, performance and security"
+        - "CI/CD Pipeline Optimization: Implementation of modern CI/CD practices on GitLab (pipeline review, quality control tool integration)"
+        - "Code Quality and Standards: Linter, Prettier, and Git hooks configuration to ensure standardized and easily maintainable code"
+        - "Performance Improvement: Front-end optimization implementation and state manager addition for responsive user experience"
+        - "Training and Knowledge Transfer: Training of two developers in Angular best practices to ensure continuity and internal project handover"
+
+    gismartware:
+      company: "GiSmartware"
+      duration: "3 years 7 months"
+      period: "2015 - 2019"
+      title: "Lead Dev - R&D SmartGeo Products"
+      period_detail: "September 2018 - March 2019 (7 months)"
+      team: "👥 10 people"
+      methodology: "Methodology:"
+      methodology_value: "Scrum"
+      project: "Project:"
+      project_value: "Maintain and develop the SmartGeo solution: web and mobile GIS solution enabling communities/companies to manage their water/sanitation/telecom networks."
+      achievements_title: "✨ Key achievements:"
+      achievements:
+        - "Prototype creation to test new connected sensors (IoT)"
+        - "New network import module"
+        - "Module for managing leaks on a water network containing a valve closure aid algorithm"
+        - "IoT module for managing connected objects (Parking spaces, Streetlights, Waste bins, Acoustic sensors, etc.)"
+        - "DT-DICT tracking module enabling response automation with cartographic plan generation"
+        - "Graphical redesign of solutions for a more modern design (Flat design)"
+        - "TMA of different products"
+        - "Translation import/export module"
+        - "Customization module (colors, logos, tool layout, etc.)"
+        - "Sanitation network anomaly analysis module"
+        - "Code review / Gitmaster / Release"
+        - "Design work"
+
+    g4:
+      company: "Institut G4"
+      duration: "2 years"
+      period: "2017 - 2018"
+      title: "Tech Instructor / Trainer"
+      trainer:
+        title: "Tech Instructor / Trainer"
+        period: "January 2017 - December 2018 (2 years)"
+        trainings_title: "📚 Training courses provided:"
+        trainings:
+          - "<strong>Git Training</strong>: Presentation of different git workflows, practical cases and git flow"
+          - "<strong>Laravel Training</strong>: Creation of a practical work that allowed students to create a very simplified version of Facebook (Registration, feed, post creation, like functionalities)"
+          - "<strong>Angular Training</strong>: Creation of a practical work that allowed students to create a TodoList (Login/Registration via Firebase, CRUD on items, localstorage manipulation, rxjs introduction)"
+
+    academic:
+      company: "Academic Projects"
+      duration: "3 years"
+      period: "2016 - 2018"
+      title: "Achievements"
+      period_detail: "January 2016 - December 2018"
+      other_title: "Academic Projects"
+      other_period: "2016 - 2018"
+      other_duration: "3 years"
+      other_subtitle: "Achievements"
+      other_period_detail: "January 2016 - December 2018"
+      projects:
+        runner:
+          title: "🎮 Multiplayer racing game (Runner)"
+          features:
+            - "Client-server architecture with Node.js"
+            - "Real-time communication via WebSockets"
+            - "HTML5 Canvas for graphic rendering"
+            - "Multiplayer game synchronization system"
+        events:
+          title: "📅 Event management application"
+          features:
+            - "LAMP stack (Linux, Apache, MySQL, PHP)"
+            - "MVC architecture"
+            - "Complete CRUD management"
+            - "Administration interface"
+        salon:
+          title: "💬 Real-time chat"
+          features:
+            - "Instant communication via WebSockets"
+            - "User and room management"
+            - "Responsive interface"
+            - "Real-time notifications"
+        runner_mobile:
+          title: "Mobile App: Runner Game"
+          features:
+            - "JS mobile app deployed with Cordova"
+            - "Random map generation"
+            - "Score management"
+            - "Resource optimization"
+            - "Character action management"
+            - "Phaser library usage"
+        events_mobile:
+          title: "Mobile application in the events industry"
+          features:
+            - "Interactive map with advanced filters to find nearby events (Geolocation, Geographic coordinate comparison, etc.)"
+            - "QR code scan to validate tickets"
+            - "Event ticket purchase"
+            - "Rating and comment system"
+        salon_mobile:
+          title: "Mobile application dedicated to trade show virtualization"
+          features:
+            - "QR code scan to authorize/deny access to a trade show"
+            - "Schedule consultation (View different conferences at a trade show)"
+            - "Ability to register for a conference"
+            - "User registration / Login"
+
+    first_jobs:
+      company: "Professional Beginnings"
+      period: "2013 - 2014"
+      mission: "Mission:"
+      team: "Team:"
+      project: "Project:"
+      achievements_title: "✨ Key achievements:"
+
+      web_enov:
+        title: "WEB E-NOV - PrestaShop Developer"
+        period: "June 2014 - July 2014 (2 months) - Beynost"
+        mission_value: "Fixed-term contract - Web development for e-commerce sites, PrestaShop module development"
+        achievements:
+          - "Postal label generation module"
+          - "Grouped order notification module"
+          - "E-commerce site adaptation"
+          - "Specific search module"
+
+      paquet:
+        title: "Internship - PAQUET Publishing Houses ERP"
+        period: "March 2014 - June 2014 (4 months) - Beynost"
+        mission_value: "Development of an ERP dedicated to PAQUET Publishing Houses management"
+        team_value: "3 people"
+        achievements:
+          - "User registration / Login"
+          - "Different profiles and languages management"
+          - "User and rights administration module (Advanced matrix for administering user consultation/editing/deletion rights on a given functionality)"
+          - "Directory module (Advanced user search)"
+          - "Catalog module (Marketed items management)"
+
+      lyon1:
+        title: "Claude Bernard Lyon 1 University - Tutored Project"
+        period: "November 2013 - February 2014 (4 months)"
+        project_value: "Development of a website dedicated to hiking"
+        team_value: "3 developers"
+        achievements:
+          - "Hiking addition with their various information (time, elevation gain, photo, description, etc.)"
+          - "Ability to load a GPX to obtain certain information dynamically and to have an overview of the hiking route"
+          - "Favorites system"
+          - "Rating and review system"
+          - "User registration / Login"
+          - "Advanced hiking search with different filters"
+          - "Animated map of France, possibility of region selection"
+
+education:
+  title: "🎓 Education"
+  g4:
+    school: "Institut G4"
+    period: "2015 - 2018"
+    degree: "Project Manager in Information Systems"
+    field: "Computer Science/Multimedia/Management"
+  licence:
+    school: "Claude Bernard Lyon 1 University"
+    period: "2014 - 2015"
+    degree: "Bachelor's Degree in Computer Science"
+  dut:
+    school: "Claude Bernard Lyon 1 University"
+    period: "2012 - 2014"
+    degree: "University Technology Degree in Computer Science"
+
+cta:
+  title: "Interested in my profile?"
+  description: "Let's discuss your project and see how I can support you"
+  contact: "Contact Me"
+  home: "Back home"
