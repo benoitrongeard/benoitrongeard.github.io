@@ -128,7 +128,7 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
             {% else %}
               {% capture movies_link %}{{ site.baseurl_root }}/projects-movies{% endcapture %}
             {% endif %}
-            <a href="{{ movies_link }}" class="btn-project-primary">
+            <a href="{{ movies_link }}" class="btn-primary">
               <span>{% t all_projects.movies_card.cta %}</span>
               <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
