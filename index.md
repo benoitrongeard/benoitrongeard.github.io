@@ -99,6 +99,48 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
   </div>
 </section>
 
+<!-- Projects Section -->
+<section class="projects-section">
+  <div class="container">
+    <h2 class="section-title">{% t all_projects.title %}</h2>
+    <p class="section-subtitle">{% t all_projects.subtitle %}</p>
+    
+    <div>
+      <!-- Project Card: Movies & Series -->
+      <div class="project-card">
+        <div class="project-card-header">
+          <img src="/assets/img/movie-catalog-logo.svg" alt="Movie Catalog Logo" class="project-logo" />
+          <h3 class="project-card-title">
+            <span class="project-name-gradient">Movie Catalog</span>
+          </h3>
+        </div>
+        <div class="project-card-content">
+          <p class="project-card-description">{% t all_projects.movies_card.description %}</p>
+          <div class="project-card-tags">
+            <span class="tag">Angular</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">RxJS</span>
+            <span class="tag">TMDB API</span>
+          </div>
+          <div class="project-card-actions">
+            {% if site.lang == "en" %}
+              {% capture movies_link %}{{ site.baseurl_root }}/en/projects-movies{% endcapture %}
+            {% else %}
+              {% capture movies_link %}{{ site.baseurl_root }}/projects-movies{% endcapture %}
+            {% endif %}
+            <a href="{{ movies_link }}" class="btn-project-primary">
+              <span>{% t all_projects.movies_card.cta %}</span>
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Experience CTA Section -->
 <section class="experience-cta-section">
   <div class="experience-cta-background">

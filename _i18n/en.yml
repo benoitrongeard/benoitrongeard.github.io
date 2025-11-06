@@ -22,6 +22,14 @@ about:
   title: "💫 About Me"
   description: "Passionate Tech Lead with over 10 years of experience in software development. I design and develop innovative web and mobile solutions using the latest technologies. My expertise covers software architecture, full-stack development, DevOps practices, cloud, and agile methodologies. I enjoy supporting teams, improving development workflows, and delivering high-quality products that meet user needs."
 
+all_projects:
+  title: "🚀 My Projects"
+  subtitle: "Discover some of my personal and professional projects"
+  movies_card:
+    title: "Movies & Series Explorer"
+    description: "Modern Angular web application to explore movies, TV shows, actors and reviews. Responsive interface with full TMDB API integration."
+    cta: "Discover the project"
+
 experience_cta:
   title_highlight: "10+ years"
   title: "of experience to discover"
@@ -349,3 +357,51 @@ cta:
   description: "Let's discuss your project and see how I can support you"
   contact: "Contact Me"
   home: "Back home"
+
+projects:
+  movies:
+    meta:
+      title: "Movies & Series Project"
+      description: "Angular web application to browse movies, TV shows, actors and ratings with TMDB API"
+    badge: "🎬 Personal Project"
+    title_highlight: "Movies & Series"
+    title: "Explore Cinema"
+    description: "A modern web application to discover the latest movies, TV shows, actors and more. Full integration with TMDB API for real-time data."
+    cta:
+      discover: "Discover features"
+      github: "View code"
+      view_code: "View source code"
+      title: "Want to see more?"
+      description: "Explore the complete source code on GitHub and discover the technical architecture of the project."
+    features:
+      title: "Key Features"
+      subtitle: "A modern and intuitive user experience"
+      realtime:
+        title: "Real-Time Data"
+        description: "Full integration with TMDB API to display latest releases, trends and personalized recommendations."
+      search:
+        title: "Advanced Search"
+        description: "Easily search for your favorite movies, series and actors with advanced filters and instant results."
+      ratings:
+        title: "Ratings & Reviews"
+        description: "Check user ratings, reviews and recommendations to make your choice."
+      actors:
+        title: "Actor Profiles"
+        description: "Explore complete filmographies, biographies and photos of actors."
+      responsive:
+        title: "100% Responsive"
+        description: "Interface optimized for all screens: desktop, tablet and mobile."
+    tech:
+      title: "Technologies Used"
+      subtitle: "Modern and performant tech stack"
+      angular: "Front-end framework with modular architecture and signals"
+      typescript: "Strong typing for robust and maintainable code"
+      rxjs: "Reactive programming for optimal data flow management"
+      api: "The Movie Database API for cinematic data"
+    gallery:
+      title: "Screenshots"
+      subtitle: "User interface preview"
+      home: "Home page"
+      detail: "Movie detail"
+      search: "Search results"
+      actors: "Actor profile"
