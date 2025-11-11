@@ -118,9 +118,14 @@ description: "Tech Lead Freelance | Web, Mobile, Cloud, DevOps"
           <p class="project-card-description">{% t all_projects.movies_card.description %}</p>
           <div class="project-card-tags">
             <span class="tag">Angular</span>
+            <span class="tag">Angular Material</span>
+            <span class="tag">Tailwind</span>
             <span class="tag">TypeScript</span>
             <span class="tag">RxJS</span>
             <span class="tag">TMDB API</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">FireAuth</span>
+            <span class="tag">Vercel</span>
           </div>
           <div class="project-card-actions">
             {% if site.lang == "en" %}
