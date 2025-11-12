@@ -22,14 +22,6 @@ about:
   title: "💫 À propos de moi"
   description: "Tech Lead passionné avec plus de 10 ans d'expériences dans le développement logiciel. Je conçois et développe des solutions web et mobile innovantes en utilisant les dernières technologies. Mon expertise couvre l'architecture logicielle, le développement full-stack, les pratiques DEVOPS,le cloud et les méthodologies agiles. J'aime accompagner les équipes, améliorer les workflows de développement et livrer des produits de haute qualité qui répondent aux besoins des utilisateurs."
 
-all_projects:
-  title: "🚀 Mes Projets"
-  subtitle: "Découvrez quelques-uns de mes projets personnels et professionnels"
-  movies_card:
-    title: "Movies & Series Explorer"
-    description: "Application web Angular moderne pour explorer films, séries TV, acteurs et critiques. Interface responsive avec intégration complète de l'API TMDB."
-    cta: "Découvrir le projet"
-
 experience_cta:
   title_highlight: "10+ ans"
   title: "d'expériences à découvrir"
@@ -356,51 +348,3 @@ cta:
   description: "Discutons de votre projet et voyons comment je peux vous accompagner"
   contact: "Me contacter"
   home: "Retour accueil"
-
-projects:
-  movies:
-    meta:
-      title: "Projet Movies & Series"
-      description: "Application web Angular pour consulter films, séries, acteurs et notes avec l'API TMDB"
-    badge: "🎬 Projet Personnel"
-    title_highlight: "Movies & Series"
-    title: "Explorer le Cinéma"
-    description: "Une application web moderne pour découvrir les derniers films, séries TV, acteurs et bien plus encore. Intégration complète avec l'API TMDB pour des données en temps réel."
-    cta:
-      discover: "Découvrir les fonctionnalités"
-      github: "Voir le code"
-      view_code: "Voir le code source"
-      title: "Envie d'en voir plus ?"
-      description: "Découvrez le code source complet sur GitHub et explorez l'architecture technique du projet."
-    features:
-      title: "Fonctionnalités Principales"
-      subtitle: "Une expérience utilisateur moderne et intuitive"
-      realtime:
-        title: "Données en Temps Réel"
-        description: "Intégration complète avec l'API TMDB pour afficher les dernières sorties, tendances et recommandations personnalisées."
-      search:
-        title: "Recherche Avancée"
-        description: "Recherchez facilement vos films, séries et acteurs préférés avec des filtres avancés et des résultats instantanés."
-      ratings:
-        title: "Notes & Critiques"
-        description: "Consultez les notes des utilisateurs, les critiques et les recommandations pour faire votre choix."
-      actors:
-        title: "Profils d'Acteurs"
-        description: "Explorez les filmographies complètes, biographies et photos des acteurs."
-      responsive:
-        title: "100% Responsive"
-        description: "Interface optimisée pour tous les écrans : desktop, tablette et mobile."
-    tech:
-      title: "Technologies Utilisées"
-      subtitle: "Stack technique moderne et performante"
-      angular: "Framework front-end avec architecture modulaire et signals"
-      typescript: "Typage fort pour un code robuste et maintenable"
-      rxjs: "Programmation réactive pour une gestion optimale des flux de données"
-      api: "The Movie Database API pour les données cinématographiques"
-    gallery:
-      title: "Captures d'Écran"
-      subtitle: "Aperçu de l'interface utilisateur"
-      home: "Page d'accueil"
-      detail: "Détail d'un film"
-      search: "Résultats de recherche"
-      actors: "Profil acteur"
